@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "224F23111E98036100434319"
+               BuildableName = "FirstSwiftProject.app"
+               BlueprintName = "FirstSwiftProject"
+               ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "224F23251E98036100434319"
+               BuildableName = "FirstSwiftProjectTests.xctest"
+               BlueprintName = "FirstSwiftProjectTests"
+               ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "224F23301E98036100434319"
+               BuildableName = "FirstSwiftProjectUITests.xctest"
+               BlueprintName = "FirstSwiftProjectUITests"
+               ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "224F23111E98036100434319"
+            BuildableName = "FirstSwiftProject.app"
+            BlueprintName = "FirstSwiftProject"
+            ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "224F23111E98036100434319"
+            BuildableName = "FirstSwiftProject.app"
+            BlueprintName = "FirstSwiftProject"
+            ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "224F23111E98036100434319"
+            BuildableName = "FirstSwiftProject.app"
+            BlueprintName = "FirstSwiftProject"
+            ReferencedContainer = "container:FirstSwiftProject.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
